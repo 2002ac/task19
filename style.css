@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Roboto', san;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+.container {
+    max-width: 1400px;
+    padding: 0px 32px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+.nav-ic {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-left-ul {
+    display: flex;
+    gap: 40px;
+    font-family: 'Sometype Mono', monospace;
+}
+
+.seh-1 {
+    width: 100%;
+    height: 600px;
+    background-color: blanchedalmond;
+}
+.seh-1-ic {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    
+}
+.seh-1-right {
+    width: 37%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.seh-1-left {
+    width: 40%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://credesign.vercel.app/multiPage/img/bannerImg.png);
+}
+
+.seh-2 {
+    width: 100%;
+    height: 800px;
+   
+}
+.w2 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.seh-2-right {
+    width: 50%;
+    height: 700px;
+    background-color: black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.seh-2-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    border-radius: 10px;
+}
+.seh-2-right img:hover{
+    opacity: 0.5;
+    transition: 2s;
+}
+.w4{
+    width: 50%;
+    height: 650px;
+   
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+    justify-content: center;
+}
+.w5{
+    width: 100%;
+    height: 200px;
+   
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.w6{
+    width: 100%;
+    height: 100px;
+ 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.w7{
+    width: 100%;
+    height: 150px;
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.w8{
+    width: 100%;
+    height: 100px;
+   
+    
+}
+.w9{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    gap: 10px;
+}
+.w10{
+    width: 50%;
+    height: 100%;
+   
+}
+.w11{
+    width: 100%;
+    height: 100%;
+   
+    color: black;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.w10 img {
+    width: 100%;
+    height: 100%;
+}
+.w11 h4{
+    color: chocolate;
+}
+.w12{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.w8 button{
+    width: 180px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+.w8 button:hover {
+    background-color: black;
+    transition: 2s;
+}
+
